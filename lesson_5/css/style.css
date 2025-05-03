@@ -1,0 +1,300 @@
+@import url(fonts.css);
+
+body {
+   background-color: #231F8B;
+}
+
+header {
+   font-family: "roboto", sans-serif;
+   overflow: hidden;
+}
+
+.sidebar {
+   background-color: #ffffff;
+   font-size: 0px;
+   overflow: hidden;
+   padding: 35px 0px 35px 0px;
+}
+
+.logo a img {
+   display: inline-block;
+   vertical-align: middle;
+   height: auto;
+}
+
+.header-warper {
+   max-width: 1480px;
+   margin: 0px auto;
+}
+
+.sidebar .logo {
+   font-size: 33px;
+   display: inline-block;
+   vertical-align: middle;
+   font-weight: 900;
+   margin: 15px 0px 15px 0px;
+   margin-right: 124px;
+
+}
+
+.navigation {
+   display: inline-block;
+   vertical-align: middle;
+   font-size: 18px;
+}
+
+.navigation ul {
+   margin: 0px;
+   padding: 0px;
+   font-size: 0px;
+}
+
+.navigation li {
+   font-size: 18px;
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 34px;
+}
+
+.navigation a {
+   display: inline-block;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.navigation a:hover {
+   color: #231F8B;
+   transition: all 0.6s ease;
+}
+
+.btn {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.blockcall {
+   border: #231F8B 2px solid;
+   border-radius: 59px;
+   display: inline-block;
+   vertical-align: middle;
+   font-size: 18px;
+   font-weight: 500;
+   margin-left: 226px;
+   margin-right: 28px;
+   padding: 13px 19px
+}
+
+.blockcall:hover {
+   background-color: #231F8B;
+   color: #ffffff;
+   transition: all 0.6s ease;
+}
+
+.login {
+   display: inline-block;
+   vertical-align: middle;
+   font-size: 18px;
+   font-weight: 500;
+   margin-right: 28px;
+}
+
+.login:hover {
+   color: #231F8B;
+   transition: all 0.6s ease;
+}
+
+.start {
+   border: #231F8B 2px solid;
+   border-radius: 59px;
+   background-color: #231F8B;
+   display: inline-block;
+   vertical-align: middle;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 13px 38px;
+   color: aliceblue;
+}
+
+.start:hover {
+   background-color: #ffffff;
+   color: #231F8B;
+   transition: all 0.6s ease;
+}
+
+main {
+   background-color: #231F8B;
+}
+
+.main-warper {
+   max-width: 1050px;
+   margin: 0px auto;
+   font-size: 0px;
+}
+
+.row1 h6 {
+   font-family: "montserrat", sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+   color: #5A54F2;
+   padding: 112px 0px 0px 0px;
+}
+
+.row1 h2 {
+   max-width: 765px;
+   font-family: "CircularStd-Black", sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+   color: #ffffff;
+}
+
+.row1 p {
+   max-width: 765px;
+   font-family: "CircularStd-Book", sans-serif;
+   font-size: 14px;
+   font-weight: normal;
+   color: #ffffff;
+   margin: 10px 0px 0px 0px;
+}
+
+.row2 {
+   margin: 70px -20px;
+}
+
+.card {
+   background-color: #ffffff;
+   max-width: 230px;
+   margin: 0px 20px;
+   padding: 40px 40px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.card h5 {
+   font-family: "CircularStd-Black", sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   color: #252B42;
+   margin: 20px 0px;
+}
+
+.card div {
+   max-width: 50px;
+   border: #E74040 1px solid;
+}
+
+.card p {
+   font-family: "Montserrat", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   color: #737373;
+   margin: 20px 0px;
+}
+
+.down {
+   margin-top: 48px;
+}
+
+.color {
+   background-color: #5A54F2;
+}
+
+.color h5 {
+   color: #ffffff;
+}
+
+.color div {
+   max-width: 50px;
+   border: #ffffff 1px solid;
+}
+
+.color p {
+   color: #ffffff;
+}
+
+footer {
+   background-color: #231F20;
+}
+
+.footer-warper {
+   max-width: 1920px;
+   margin: 0px auto;
+}
+
+.background {
+   max-width: 1920px;
+   background-color: #231F8B;
+}
+
+.peoplesection h2 {
+   max-width: 1920px;
+   font-family: "CircularStd-Black", sans-serif;
+   font-size: 55px;
+   font-weight: 700;
+   color: #ffffff;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   margin-top: 190px;
+   margin-bottom: 31px;
+}
+
+.peoplesection p {
+   max-width: 864px;
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+   color: #94A2B3;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: -30px;
+}
+
+.peoplesection img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.line1 {
+   max-width: 1480px;
+   border: #323148 1px solid;
+   margin: 0px auto;
+}
+
+.footer-panel {
+   background-color: #231F20;
+   max-width: 1230px;
+   margin: 0px auto;
+   font-size: 0px;
+}
+
+.garantysection {
+   font-family: "Roboto", sans-serif;
+   font-size: 20px;
+   display: inline-block;
+   max-width: 325px;
+   margin: 45px 118px 0px 0px;
+}
+
+.garantysection:last-child {
+   margin-right: 0;
+}
+
+.garantysection img {
+   display: inline-block;
+   vertical-align: middle;
+   height: auto;
+}
+
+.regular {
+   font-weight: 400;
+   display: inline-block;
+   color: #ffffff;
+   margin-bottom: 45px;
+}
+
+.bold {
+   font-weight: 700;
+   display: inline-block;
+   color: #ffffff;
+}
